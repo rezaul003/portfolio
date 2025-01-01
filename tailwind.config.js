@@ -6,8 +6,8 @@ module.exports = {
     extend: {},
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark"], // Enable light and dark themes
-  },
-  darkMode: 'class', // Add this line
+  // daisyui: {
+  //   themes: ["light", "dark"], // Enable light and dark themes
+  // },
+  // darkMode: 'class', // Add this line
 };
