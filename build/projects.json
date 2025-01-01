@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "The Dragon News",
+      "image": "./images/project_1.png",
+      "description": "A news website project that integrates with APIs to display news articles.",
+      "github": "https://github.com/rezaul003/the-dragon-news"
+    },
+    {
+      "id": 2,
+      "title": "React Career Hub",
+      "image": "./images/project_2.png",
+      "description": "A platform for job seekers to find career opportunities with an interactive interface.",
+      "github": "https://github.com/rezaul003/react-career-hub"
+    },
+    {
+      "id": 3,
+      "title": "API Integration Phone Shop",
+      "image": "./images/project_3.png",
+      "description": "An e-commerce application for buying phones, integrated with external APIs for product data.",
+      "github": "https://github.com/rezaul003/api-integration-phone-shop1"
+    },
+    {
+      "id": 4,
+      "title": "Bank Login and Balance Management",
+      "image": "./images/project_4.png",
+      "description": "A bank login and balance management system where users can view and manage their accounts.",
+      "github": "https://github.com/rezaul003/bank-login-and-balance-management"
+    },
+    {
+      "id": 5,
+      "title": "TinyOne",
+      "image": "./images/project_5.png",
+      "description": "A minimalistic website template for creating personal portfolios or small business websites.",
+      "github": "https://github.com/rezaul003/tinyone"
+    },
+    {
+      "id": 6,
+      "title": "Nipro Agency",
+      "image": "./images/project_6.png",
+      "description": "A full-stack application for a digital agency showcasing their services and projects.",
+      "github": "https://github.com/rezaul003/nipro-agency"
+    },
+    {
+      "id": 7,
+      "title": "Poss System",
+      "image": "./images/project_7.png",
+      "description": "A Point of Sale system for small businesses.",
+      "github": "https://github.com/rezaul003/poss-system"
+    }
+  ]
+  
