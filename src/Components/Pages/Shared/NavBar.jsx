@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="navbar bg-base-100 px-4 py-2">
             <div className="navbar-start">
                 <Link to="/" aria-label="Go to homepage">
-                    <div className="h-10 sm:text-2xl md:text-3xl lg:text-5xl font-semibold">
+                    <div className="h-10 sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
                         <span className="text-indigo-500">R</span><span>ezaul</span>
                     </div>
                 </Link>
