@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./Shared/NavBar";
 import Footer from "./Shared/Footer";
-import profileImage from "../../assets/rezaul_karim.jpg";
+// import profileImage from "../../assets/rezaul_karim.jpg";
+import profileImage from "../../assets/rezaul_karim.jpg?as=webp";
 
 const About = () => {
     return (
