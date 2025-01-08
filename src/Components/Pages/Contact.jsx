@@ -43,7 +43,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
-            <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white">
                 {/* Contact Form */}
                 <div>
                     <h2 className="text-4xl font-bold text-black mb-6">Get in Touch</h2>
@@ -64,7 +64,7 @@ const Contact = () => {
                                 name="fullName"
                                 value={formData.fullName}
                                 onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                                className="w-full px-4 py-3 border bg-slate-100 text-black border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                                 placeholder="Your full name"
                                 required
                             />
@@ -82,7 +82,7 @@ const Contact = () => {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                                className="w-full px-4 py-3  bg-slate-100 text-black border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                                 placeholder="Your email address"
                                 required
                             />
@@ -100,7 +100,7 @@ const Contact = () => {
                                 name="subject"
                                 value={formData.subject}
                                 onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                                className="w-full px-4 py-3  bg-slate-100 text-black border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                                 placeholder="Subject of your message"
                                 required
                             />
@@ -117,7 +117,7 @@ const Contact = () => {
                                 name="message"
                                 value={formData.message}
                                 onChange={handleChange}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                                className="w-full px-4 py-3  bg-slate-100 text-black border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
                                 rows="5"
                                 placeholder="Write your message here"
                                 required

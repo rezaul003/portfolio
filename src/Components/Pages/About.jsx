@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div>
             <Navbar />
-            <div className="mx-4 text-black my-8">
+            <div className="mx-4 text-black my-8 bg-white">
                 <div className="">
                     {/* Header */}
                     <div className="flex items-center mb-12">

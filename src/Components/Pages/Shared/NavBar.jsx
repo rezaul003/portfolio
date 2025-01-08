@@ -1,5 +1,6 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -7,24 +8,24 @@ const Navbar = () => {
 
     const navLinks = (
         <>
-            <li role="menuitem" className="text-lg mx-2">
-                <NavLink to="/projects">Projects</NavLink>
+            <li role="menuitem" className="text-lg mx-2 text-black">
+                <Link to="/projects">Projects</Link>
             </li>
-            <li role="menuitem" className="text-lg mx-2">
-                <NavLink to="/about">About Me</NavLink>
+            <li role="menuitem" className="text-lg mx-2 text-black">
+                <Link to="/about">About Me</Link>
             </li>
-            <li role="menuitem" className="text-lg mx-2">
-                <NavLink to="/contact">Contact</NavLink>
+            <li role="menuitem" className="text-lg mx-2 text-black">
+                <Link to="/contact">Contact</Link>
             </li>
         </>
     );
 
     return (
-        <div className="navbar bg-base-100 px-4 py-2">
+        <div className="navbar px-4 py-2 bg-white">
             <div className="navbar-start">
                 <Link to="/" aria-label="Go to homepage">
                     <div className="h-10 sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
-                        <span className="text-indigo-500">R</span><span>ezaul</span>
+                        <span className="text-indigo-500">R</span><span className="text-black">ezaul</span>
                     </div>
                 </Link>
             </div>
@@ -50,30 +51,18 @@ const Navbar = () => {
                     aria-label="Toggle navigation menu"
                     onClick={() => setMenuOpen(!menuOpen)}
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className={`h-5 w-5 transition-transform duration-200 ${menuOpen ? "rotate-180" : ""}`}
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h8m-8 6h16"}
-                        />
-                    </svg>
+                    {menuOpen ? <FaTimes className="text-xl text-black" /> : <FaBars className="text-xl text-black" />}
                 </button>
 
                 {menuOpen && (
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-base-100 absolute right-4 top-12"
+                        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-gray-100 text-white absolute right-4 top-12"
                     >
                         {navLinks}
                     </ul>
                 )}
+
             </div>
 
             {/* Modal */}

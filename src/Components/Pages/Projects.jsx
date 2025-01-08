@@ -10,9 +10,9 @@ const Projects = () => {
       <Navbar />
 
       {/* Projects Section */}
-      <section className="projects py-16 lg:py-24 bg-base-100">
+      <section className="projects py-16 lg:py-24 bg-white">
         <div className="container mx-auto text-center px-4">
-          <h2 className="text-4xl font-bold mb-12">All Projects</h2>
+          <h2 className="text-4xl font-bold mb-12 text-black">All Projects</h2>
 
           {/* Projects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
